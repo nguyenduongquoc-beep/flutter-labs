@@ -1,0 +1,34 @@
+name: lab5_2224802010878_nguyenduongquoc
+description: "Lab 5 - Flutter Todo App with ASP.NET Core JWT Backend"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP & API
+  http: ^1.2.1
+
+  # JWT Decoder
+  jwt_decoder: ^2.0.1
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+
+  # UI helpers
+  flutter_slidable: ^3.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
